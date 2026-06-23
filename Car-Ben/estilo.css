@@ -1,0 +1,95 @@
+.body {
+    font-family:'Lucida Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    background-color: aliceblue(182,228,228);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+
+}
+
+.card {
+    width: 350;
+    background: aqua;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: tranform 0.3s ease-in-out;
+
+
+}
+
+.card:hover{
+    transform: translate(-30px);
+
+}
+
+.card_content{
+    padding: 20px;
+
+}
+
+.card_image{
+    width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+.card_content{
+    padding: 15px;
+}
+
+.card_description{
+    font-size: 1em;
+    color: brown;
+    margin: 0 0 15px 0;
+
+}
+
+.card_actions{
+    padding: 0 20px 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+
+}
+
+.card_button{
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3 ease ;
+
+
+}
+ 
+.card_button--primary{
+    background-color: black;
+    color: antiquewhite;
+
+
+}
+
+.card_button--primary:hover{
+    background-color: brown;
+
+
+}
+
+.card_button--secondary{
+    background-color: aqua(15,111,255);
+    color: aliceblue;
+
+
+}
+
+.card_button--primary:hover{
+    background-color: aqua;
+
+    
+}
