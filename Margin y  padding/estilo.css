@@ -1,0 +1,13 @@
+.caja-padding {
+    background-color: lavender;
+    padding: 60px;
+    border: 20px solid red;
+
+
+}
+
+.caja-margin {
+    background-color: aqua;
+    margin: 10px;
+    border: 2px solid green; 
+}
